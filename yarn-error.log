@@ -1,0 +1,52 @@
+Arguments: 
+  /Users/sunilmore/.nvm/versions/node/v11.15.0/bin/node /Users/sunilmore/.nvm/versions/node/v11.15.0/bin/yarn start
+
+PATH: 
+  /Users/sunilmore/.nvm/versions/node/v11.15.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  11.15.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/sunilmore/Documents/projects/project-todo/package.json: Unexpected token } in JSON at position 204
+      at JSON.parse (<anonymous>)
+      at /Users/sunilmore/.nvm/versions/node/v11.15.0/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/sunilmore/.nvm/versions/node/v11.15.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/sunilmore/.nvm/versions/node/v11.15.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "restex-mongo-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js",
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "cors": "^2.8.5",
+      "dotenv": "^8.2.0",
+      "express": "^4.17.1",
+      "express-async-handler": "^1.1.4",
+      "jsonwebtoken": "^8.5.1",
+      "restex": "^1.13.0",
+      "serve-static": "^1.14.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
